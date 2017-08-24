@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<link href="css/demo2.css" type="text/css" rel="stylesheet" />	
+	</head>
+	<body onload="isload()">
+		<!-- 标题-->
+		<div id="header">
+			<img src="img/meizu.png" />
+		</div>
+		<!--表单内容-->
+		<div id="content">
+			<!--背景图-->
+			<img src="img/beijing.png" style="width: 100%;" />				
+			<form class="mainform" action="index.html" onsubmit="return sendok();">
+				<!--右上角二维码图片-->
+				<div class="QRcode"><img src="img/erweima.png"/></div>
+				<!--登录标题字-->
+				<div class="login">
+					<div id="numberlogin" class="fli"><a href="登录.html">账号登录</a></div>
+					<!--分隔线-->
+				    <div class="linebetween"><img src="img/fengexian.png" />  </div>
+				    <div id="securitylogin" class="fli"><a href="验证码登录.html">验证码登录</a></div>
+				</div>
+				
+						<!--账号框-->
+						<div class="xinxi">
+							<input class="phone" id="phone" style="font-size: 14px;" maxlength="11" placeholder="&nbsp;&nbsp;手机号/魅族账号" autocomplete="off" />
+				        </div>
+				        <!--密码框-->
+				        <div class="yanzhengma">
+				           	<input type="text" id="yanzhengma" style="width: 278px;;height: 50px;font-size: 14px;"  class="huoqu" maxlength="6" autocomplete="off" placeholder="&nbsp;&nbsp;密码" />			
+				        </div>
+				        
+				        
+				        <!-- 滚动条验证--><!--图片整合技术-->
+				        <div class="scrollbar">
+				        	<div class="dot"></div>
+				        	<div class="character">&nbsp;&nbsp;按住左边滑块，拖动完成上方拼图</div>
+				        	<div class="ready"></div>
+				        </div>
+				        <!--hover出现图片框-->
+				        <div class="matchingbox">
+				        	<div class="matching"></div>
+				        </div>
+				        			        
+				        <!--记住登录状态-->
+				        <div class="loggingstatus"><img src="img/vain.png" id="picture" onclick="showpicture()" /><font color="grey">记住登录状态</font></div>
+                      
+                      	
+                        <!--登录按钮-->
+					    <input value="登 录" class="btn1" type="submit">
+					
+				<div class="last">
+					<a href="注册.html">注册</a>
+					<a id="forget" href="https://i.flyme.cn/forgetpwd">忘记密码？</a>
+				</div>				
+			</form>
+		</div>		
+		
+		<div class="footer">
+			<div class="footer1">
+				<div class="footer11"><a href="http://www.meizu.com/about.html">关于魅族</a></div>
+				<div class="footer11"><a href="http://hr.meizu.com/">工作机会</a></div>
+				<div class="footer11"><a href="http://www.meizu.com/contact.html">联系我们</a></div>
+				<div class="footer11"><a href="http://www.meizu.com/legal.html">法律声明</a></div>
+				<div class="footer11"><a href="https://uc-res.mzres.com/resources/uc/wlogin/faq/html/index.html">常见问题</a></div>
+				<div class="footer11"><a href="#">简体中文</a></div>
+			</div>
+			
+			<div class="footer2">
+				<font size="2px;" color="black">客服热线 400-788-3333</font>
+				<span><a href="http://live-i.meizu.com/live800/chatClient/chatbox.jsp?companyID=8957&configID=4&enterurl=&pagereferrer=&info=&k=1"><img id="img" src="img/kefu.png"/></a></span>
+			</div>
+			
+			<div class="footer3">©2016 Meizu Telecom Equipment Co., Ltd. All rights reserved.&nbsp;<font>备案号: 粤ICP备13003602号-4&nbsp;经营许可证编号: 粤B2-20130198营业执照</font></div>
+			
+		</div>
+		
+	</body>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+		
+</html>
+
+

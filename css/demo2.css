@@ -1,0 +1,278 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#header
+{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+#content
+{
+	width: 100%;
+	position: absolute;
+	margin-top: 5%;
+}
+#content img
+{
+	position: absolute;
+}
+.mainform
+{
+	width: 368px;
+	height: 501px;
+	position: absolute;
+	background-color: white;
+	margin-top: 8%;
+	margin-left: 58%;
+}
+.QRcode
+{
+	position: absolute;
+	margin-left: 80%;
+}
+.login
+{
+	position: absolute;
+	width: 300px;
+	margin-left: 20%;
+	margin-top: 20%;
+	color: #7f7f7f;
+	font-size: 18px;
+}
+.fli a
+{
+	text-decoration:none;
+	color: grey;
+}
+.fli a:hover
+{
+	color:#32a5e7 ;
+}
+.linebetween
+{
+	position: absolute;
+	margin-left: 30%;
+	margin-top: -8%;
+}
+#securitylogin
+{
+	position: absolute;
+	margin-left: 55%;
+	margin-top: -7%;
+}
+		
+
+
+.xinxi
+{
+	position: absolute;
+	margin-top: 42%;
+	margin-left: 15%;
+}
+
+.phone
+{
+	width: 278px;
+	height: 48px;
+}
+.yanzhengma
+{
+	position: absolute;
+	margin-top: 61.5%;
+	margin-left: 15%;
+}
+.yanzhengma a
+{
+	text-decoration: none;
+	color: grey;
+	position: absolute;
+    right: 40px;
+    top: 16px;
+    font-size: 14px;
+}
+.yanzhengma a:hover
+{
+	cursor: pointer;
+}
+.mima
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 80.5%;
+}
+.mima img
+{
+	position: absolute;
+	margin-left: 82%;
+	margin-top: -15%;
+}
+.scrollbar
+{
+	height: 38px;
+    width: 261px;
+    position:absolute;
+    margin-left: 6.5%;
+	margin-top: 82.5%;
+    overflow: visible;
+}
+.dot
+{
+	height: 44px;
+    width: 44px;
+    background-image: url(../img/dot.png);
+    background-position: 0 -84px;    /*水平方向不动,y轴向下移动84个像素*/
+    cursor: pointer;
+    position: absolute;
+    margin-left: 11%;
+    top: -9px;
+    border-radius: 13px;
+    z-index: 100;
+}
+.character
+{
+	background-image: url(../img/dot.png);
+	cursor: default;
+    position: absolute;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #486c80;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    width: 280px;
+}
+.ready
+{
+	background-image: url(../img/dot.png);
+	height: 26px;
+    width: 26px;
+    position: absolute;
+    margin-left: 113%;
+    background-position: 0 -1153px;
+}
+
+.matchingbox
+{
+	position: absolute;
+    width: 75%;
+    height: 32%;
+    background-color: #f4ece1;
+    border-radius: 3%;
+    margin-top: 32%;
+    margin-left: 14%;
+    display: none;
+}
+.matching
+{
+	position: absolute;
+    background-image: url(../img/matching.png);
+    width: 90%;
+    height: 81%;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.loggingstatus
+{
+	position: absolute;
+	width: 250px;
+	margin-left: 15%;
+	margin-top: 96%;
+}
+.loggingstatus font
+{
+	font-size: 14px;
+	position: absolute;
+	margin-left: 10%;
+}
+
+
+.btn1
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 114.5%;
+	 border: 0 none;
+	 color:#fff;
+	 font-size: 14px;
+    line-height: 46px;
+	background-color:#32a5e7;
+	width: 278px;
+	height: 50px;
+}
+
+.last
+{
+	position: absolute;
+	margin-left: 15%;
+	width: 300px;
+	margin-top: 130.5%;
+}
+.last a
+{
+	text-decoration: none;
+	color:#32a5e7 ;
+}
+#forget
+{
+	position: relative;
+	margin-left: 50%;
+	width: 100px;
+}
+.footer
+{
+	position: absolute;
+	width: 100%;
+	height:15%;
+	margin-top: 70%;
+}
+.footer1
+{
+	position: absolute;
+	margin-left: 10%;	
+}
+.footer11
+{
+	float: left;
+	margin-left: 10px;
+}
+.footer11 a
+{
+	text-decoration: none;
+	line-height: 50px;
+	color:#505050;
+	font-size: 14px;
+}
+.footer11 a:hover
+{
+	color:black;
+}
+.footer2
+{
+	position: absolute;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 1%;	
+}
+.footer2 span a img
+{
+	position: absolute;
+	margin-top: -1.5%;
+	margin-left: 1.5%;
+}
+.footer3
+{
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 10%;
+	font-size: 10px;
+	color: grey;
+}
+.footer3 font
+{
+
+	font-size: 14px;
+	color: grey;
+}

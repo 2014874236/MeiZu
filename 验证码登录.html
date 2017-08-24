@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<link href="css/demo3.css" type="text/css" rel="stylesheet" />					
+	</head>
+	<body>
+		<div id="header">
+			<img src="img/meizu.png" />
+		</div>
+		<div id="content">
+			<img src="img/beijing.png" style="width: 100%;" />
+			<form class="mainform" ><!--action="首页.html" onsubmit="return sendok();"-->
+				<div class="QRcode"><img src="img/erweima.png"/></div>
+				<div class="login">
+					<div id="numberlogin" class="fli"><a href="登录.html">账号登录</a></div>
+				    <div class="linebetween"><img src="img/fengexian.png" />  </div>
+				    <div id="securitylogin" class="fli"><a href="验证码登录.html">验证码登录</a></div>
+				</div>
+				<!--手机号码框-->
+				<div class="xinxi">
+					<span class="86">
+						<select id="select"style="width: 61px;height: 50px;font-size: 14px;">
+							<option><font color="grey" >+86</font></option>
+							<option>常用</option>
+							<option>中国&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+86</option>
+							<option>台湾&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+886</option>
+							<option>中国香港&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+852</option>
+							<option>Brazil&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+55</option>
+							<option>India&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91</option>
+							<option>Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+62</option>
+							<option>Malaysia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+60</option>
+							<option>A</option>
+							<option>Andorra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+376</option>
+							<option>Afghanistan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+93</option>
+						</select>
+					</span>
+					<!--手机号码框-->
+					<input class="phone" id="phone" style="font-size: 14px;" maxlength="11" placeholder="&nbsp;&nbsp;手机号码" autocomplete="off" />
+				</div>
+				
+				<!--验证码框-->
+				<div class="yanzhengma">
+					<input type="text" id="yanzhengma" style="width: 273px;height: 50px;font-size: 14px;"  class="huoqu" maxlength="6" autocomplete="off" placeholder="&nbsp;&nbsp;验证码" />
+					<span class="line"></span>
+					<span style="width: 161px;height: 50px;"><a  href="javascript:">&nbsp;获取验证码</a></span>
+				</div>
+				<!--登录按钮-->
+				<input value="登 录" class="btn1" type="submit">
+				
+				<div class="last">
+					<a href="注册.html">注册</a>
+					<a href="https://i.flyme.cn/forgetpwd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忘记密码？</a>
+				</div>				
+			</form>
+		</div>		
+		
+		<div class="footer">
+			<div class="footer1">
+				<div class="footer11"><a href="http://www.meizu.com/about.html">关于魅族</a></div>
+				<div class="footer11"><a href="http://hr.meizu.com/">工作机会</a></div>
+				<div class="footer11"><a href="http://www.meizu.com/contact.html">联系我们</a></div>
+				<div class="footer11"><a href="http://www.meizu.com/legal.html">法律声明</a></div>
+				<div class="footer11"><a href="https://uc-res.mzres.com/resources/uc/wlogin/faq/html/index.html">常见问题</a></div>
+				<div class="footer11"><a href="#">简体中文</a></div>
+			</div>
+			
+			<div class="footer2">
+				<font size="2px;" color="black">客服热线 400-788-3333</font>
+				<span><a href="http://live-i.meizu.com/live800/chatClient/chatbox.jsp?companyID=8957&configID=4&enterurl=&pagereferrer=&info=&k=1"><img id="img" src="img/kefu.png"/></a></span>
+			</div>			
+			<div class="footer3">©2016 Meizu Telecom Equipment Co., Ltd. All rights reserved.&nbsp;<font>备案号: 粤ICP备13003602号-4&nbsp;经营许可证编号: 粤B2-20130198营业执照</font></div>			
+		</div>		
+	</body>
+	
+	    <script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+</html>

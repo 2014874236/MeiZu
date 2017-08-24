@@ -1,0 +1,214 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#header
+{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+#content
+{
+	width: 100%;
+	position: absolute;
+	margin-top: 5%;
+}
+#content img
+{
+	position: absolute;
+}
+.mainform
+{
+	width: 368px;
+	height: 421px;
+	position: absolute;
+	background-color: white;
+	margin-top: 8%;
+	margin-left: 58%;
+}
+.QRcode
+{
+	position: absolute;
+	margin-left: 80%;
+}
+.login
+{
+	position: absolute;
+	width: 300px;
+	margin-left: 20%;
+	margin-top: 20%;
+	color: #7f7f7f;
+	font-size: 18px;
+}
+.fli a
+{
+	text-decoration:none;
+	color: grey;
+}
+.fli a:hover
+{
+	color:#32a5e7 ;
+}
+.linebetween
+{
+	position: absolute;
+	margin-left: 30%;
+	margin-top: -8%;
+}
+#securitylogin
+{
+	position: absolute;
+	margin-left: 55%;
+	margin-top: -7%;
+}
+		
+
+.xinxi
+{
+	position: absolute;
+	margin-top: 42%;
+	margin-left: 15%;
+}
+#select
+{
+	margin-left: 0%;
+}
+.phone
+{
+	width: 204.23px;
+	height: 46px;
+}
+.yanzhengma
+{
+	position: absolute;
+	margin-top: 60.5%;
+	margin-left: 15%;
+}
+.line{
+	color: #d9d9d9;
+    height: 40px;
+    display: inline-block;
+    border-left: 1px solid #dadada;
+    position: absolute;
+    right: 140px;
+    top: 5px;
+}
+.yanzhengma a
+{
+	text-decoration: none;
+	color: grey;
+	position: absolute;
+    right: 40px;
+    top: 16px;
+    font-size: 14px;
+}
+.yanzhengma a:hover
+{
+	cursor: pointer;
+}
+.mima
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 80.5%;
+}
+.mima img
+{
+	position: absolute;
+	margin-left: 82%;
+	margin-top: -15%;
+}
+.loggingstatus
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 96%;
+}
+.loggingstatus font
+{
+	font-size: 14px;
+}
+
+.btn1
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 85.5%;
+	 border: 0 none;
+	 color:#fff;
+	 font-size: 14px;
+    line-height: 46px;
+	background-color:#32a5e7;
+	width: 278px;
+	height: 50px;
+}
+
+.last
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 104.5%;
+}
+.last a
+{
+	text-decoration: none;
+	color:#32a5e7 ;
+}
+
+.footer
+{
+	position: absolute;
+	width: 100%;
+	height:15%;
+	margin-top: 70%;
+}
+.footer1
+{
+	position: absolute;
+	margin-left: 10%;	
+}
+.footer11
+{
+	float: left;
+	margin-left: 10px;
+}
+.footer11 a
+{
+	text-decoration: none;
+	line-height: 50px;
+	color:#505050;
+	font-size: 14px;
+}
+.footer11 a:hover
+{
+	color:black;
+}
+.footer2
+{
+	position: absolute;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 1%;	
+}
+.footer2 span a img
+{
+	position: absolute;
+	margin-top: -1.5%;
+	margin-left: 1.5%;
+}
+.footer3
+{
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 10%;
+	font-size: 10px;
+	color: grey;
+}
+.footer3 font
+{
+
+	font-size: 14px;
+	color: grey;
+}

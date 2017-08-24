@@ -1,0 +1,323 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#header
+{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+#content
+{
+	width: 100%;
+	position: absolute;
+	margin-top: 5%;
+}
+#content img
+{
+	position: absolute;
+}
+.mainform
+{
+	width: 368px;
+	height: 501px;
+	position: absolute;
+	background-color: white;
+	margin-top: 8%;
+	margin-left: 58%;
+}
+.zhuce
+{
+	position: absolute;
+	width: 368px;
+}
+.zhuce a
+{
+	text-decoration: none;
+	position: absolute;
+	margin-top: 12%;
+	margin-left: 50%;
+	font-size: 20px;
+	color:#32a5e7;
+	
+}
+.zhuce a:hover
+{
+	color: blue;
+}
+.xinxi
+{
+	position: absolute;
+	margin-top: 42%;
+	margin-left: 15%;
+}
+#select
+{
+	margin-left: 0%;
+}
+.phone
+{
+	width: 204.23px;
+	height: 46px;
+}
+.yanzhengma
+{
+	position: absolute;
+	margin-top: 60.5%;
+	margin-left: 15%;
+}
+.line{
+	color: #d9d9d9;
+    height: 40px;
+    display: inline-block;
+    border-left: 1px solid #dadada;
+    position: absolute;
+    right: 140px;
+    top: 5px;
+}
+.yanzhengma a
+{
+	text-decoration: none;
+	color: grey;
+	position: absolute;
+    right: 40px;
+    top: 16px;
+    font-size: 14px;
+}
+.yanzhengma a:hover
+{
+	cursor: pointer;
+}
+.mima
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 80.5%;
+}
+.mima img
+{
+	position: absolute;
+	margin-left: 82%;
+	margin-top: -15%;
+}
+
+
+
+/*手机号码提示框*/
+.send {
+    position:relative;
+    width:180px;
+    height:55px;
+    background:#e6e6e6;
+    border-radius:5px; /* 圆角 */
+    margin-left: 85%;
+    margin-top: 19.6%;
+    display: none;
+}
+.send font
+{
+	position: absolute;
+	font-size: 14px;
+	margin-top: 8%;
+	margin-left: 6%;
+}
+/*圆角样式*/
+.send .arrow 
+{
+    position:absolute;
+    top:3px;
+    left:-16px; /* 圆角的位置 */
+    width:0;
+    height:0;
+    font-size:0;
+    border:solid 8px;
+    border-color:white #e6e6e6 white white ;
+}
+
+
+
+/*验证码提示框*/
+.send1 {
+    position:relative;
+    width:180px;
+    height:45px;
+    background:#e6e6e6;
+    border-radius:5px; /* 圆角 */
+    margin-left: 85%;
+    margin-top: 24.6%;
+    display: none;
+}
+.send1 font
+{
+	position: absolute;
+	font-size: 14px;
+	margin-top: 8%;
+	margin-left: 6%;
+}
+/*圆角样式*/
+.send1 .arrow 
+{
+    position:absolute;
+    top:3px;
+    left:-16px; /* 圆角的位置 */
+    width:0;
+    height:0;
+    font-size:0;
+    border:solid 8px;
+    border-color:white #e6e6e6 white white ;
+}
+
+
+/*密码提示框*/
+.send2 {
+    position:relative;
+    width:190px;
+    height:55px;
+    background:#e6e6e6;
+    border-radius:5px; /* 圆角 */
+    margin-left: 85%;
+    margin-top: 29.6%;
+    display: none;
+}
+.send2 font
+{
+	position: absolute;
+	font-size: 14px;
+	margin-top: 6%;
+	margin-left: 6%;
+}
+/*圆角样式*/
+.send2 .arrow 
+{
+    position:absolute;
+    top:3px;
+    left:-16px; /* 圆角的位置 */
+    width:0;
+    height:0;
+    font-size:0;
+    border:solid 8px;
+    border-color:white #e6e6e6 white white ;
+}
+
+
+
+
+
+
+
+.tiaoli
+{
+	position: absolute;
+	width: 280px;
+	margin-left: 15%;
+	margin-top: 100.5%;
+}
+.tiaoli font
+{
+	font-size: 12px;
+}
+.tiaoli a
+{
+	text-decoration: none;
+	color:#32a5e7;
+	font-size: 12px;
+}
+.btn button
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 114.5%;
+	background-color:#32a5e7;
+	border: 0 none;
+	 color:#fff;
+	 font-size: 14px;
+    line-height: 46px;
+	width: 280px;
+	height: 50px;
+}
+/*.btn a
+{
+	position: absolute;
+	margin-left: 45%;
+	margin-top: 5.5%;
+	color: white;
+	text-decoration: none;
+}*/
+.last
+{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 130.5%;
+}
+.last a
+{
+	text-decoration: none;
+	color:#32a5e7 ;
+}
+
+.footer
+{
+	position: absolute;
+	width: 100%;
+	height:15%;
+	margin-top: 70%;
+}
+.footer1
+{
+	position: absolute;
+	margin-left: 10%;	
+}
+.footer11
+{
+	float: left;
+	margin-left: 10px;
+}
+.footer11 a
+{
+	text-decoration: none;
+	line-height: 50px;
+	color:#505050;
+	font-size: 14px;
+}
+.footer11 a:hover
+{
+	color:black;
+}
+.footer2
+{
+	position: absolute;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 1%;	
+}
+/*.footer2 font
+{
+	line-height: 50px;
+}*/
+.footer2 span a img
+{
+	position: absolute;
+	margin-top: -1.5%;
+	margin-left: 1.5%;
+}
+/*.tupianzhenghe
+{
+	position: absolute;
+	margin-left: 3%;
+}*/
+.footer3
+{
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 10%;
+	font-size: 10px;
+	color: grey;
+}
+.footer3 font
+{
+
+	font-size: 14px;
+	color: grey;
+}

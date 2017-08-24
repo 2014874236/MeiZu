@@ -1,0 +1,281 @@
+html, body, ul, li, ol, dl, dd, dt, p,a, h1, h2,
+h3, h4, h5, h6, form, fieldset, legend,span, img,input {
+	border:0; 
+	margin:0; 
+	padding:0; 
+	list-style: none;
+	font-family: "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei",Arial,Helvetica,sans-serif,"\5B8B\4F53";
+	font-size: 14px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+.Zazzing
+{
+	margin-top: 40px;
+    background-color: white;
+}
+.Zazzing .whole{
+	background: white;
+}
+.whole .hot-prop{
+	background:white;
+	width: 1241px;
+	height: 430px;
+	margin: 0 auto;
+}
+.hot-prop .propose{
+	height: 31px;
+	margin-bottom: 20px;
+}
+.propose p{
+	float: left;
+    font-size: 24px;
+    color: #333;
+}
+.propose .btn{
+	float:right;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;  /*鼠标的形式*/
+   	font-size: 25px;
+    transition: all .5s;
+}
+.left{
+	border:1px solid #EFEFEF;
+	color:#EFEFEF;
+}
+.right{
+	border: 1px solid #BDBDBD;
+    color: #BDBDBD;
+}
+.right:hover{
+	border-color: #00c3f5;
+    color: #00c3f5;
+}
+.left{
+	margin-right: 5px;
+}
+.bigbox{
+	width: 1240px;
+	height: 338px;
+	overflow-x: hidden; 
+  	overflow-y: hidden;
+}
+.cont{
+	clear: both;
+	height: 336px;
+	width: 2480px;
+}
+.hotlist{
+	display: inline-block;
+	float: left;
+    top: 0;
+    left: 0;
+    width: 246px;
+    height: 336px;
+    text-align: center;
+    font-size: 14px;
+   	background:white;
+   	position:relative;
+   	border: 1px solid #EFEFEF;
+}
+.hotlist:hover{
+	border-color: #BDBDBD;
+}
+.Zazzing .first{
+	background:white;
+}
+.mobile{
+	width: 1240px;
+    margin: 0 auto;
+}
+.Zazzing .mobile-ad{
+	background-color: white;
+	height: 150px;
+}
+.mobile-ad img{
+	height: 120px;
+	weight:1240px;
+}
+.Zazzing .second{
+	background:#f5f5f5;
+}
+.second .mobile-con{
+	width: 1240px;
+    margin: 0 auto;
+	background:#f5f5f5;
+}
+.mobile-con .mobile-phone
+{
+	height:31px;
+	background:#f5f5f5;
+	padding-top:40px;
+}
+.mobile-phone p{
+	float: left;
+	font-size: 24px;
+    color: #333;
+}
+.mobile-phone a{
+	float: right;
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+.mobile-phone a:hover{
+	color: #00c3f5;
+}
+.mobile-list,.mobile-listone{
+	clear: both;
+	background:#f5f5f5;
+	height:720px;
+	margin-top: 20px;
+	width: 1245px;
+}
+.list{
+	float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 244px;
+    height: 338px;
+    text-align: center;
+    font-size: 14px;
+    background: yellow;
+    position:relative;  /*相对位置 根*/
+    overflow: hidden;   /*超出的部分隐藏*/
+    transition: all .2s linear 0s;   /*元素产生任何属性值变化时都将执行transition效果;持续时间0.2s;匀速;马上执行（无延迟时间）*/
+}
+.imebuy{
+	width: 244px;
+	background: rgba(255,255,255,.8);
+	text-align: center;
+	line-height: 100px;
+	bottom: 0;
+    left: 0;
+    height: 0;       /*高度设置为0,不显示*/
+   	position:absolute;   /*绝对位置，固定在页面的某处，不会因其他变化而影响到其分布位置的改变*/
+    transition:height .5s;   /*产生过渡效果,持续时间0.5s;height可以去掉，但是持续时间要设置*/
+}
+.list:hover .imebuy{    /*.imgbuy属性值发生变化*/
+	height: 100px;
+}
+.imebuy a{
+	width: 188px;
+	color: white;
+	font-size: 14px;
+	line-height: 38px;
+	background: #F66567;
+	display: inline-block;     /*以行块显示*/
+    vertical-align: middle;   /*行内元素的水平垂直居中对齐*/
+   	border: solid 1px #F66567;
+    border-radius: 4px;
+}
+.imebuy a:hover {
+    border-color: #FF8284;
+    background-color: #FF8284;
+}
+.imglist,.imglistone{
+	float: left;
+    top: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 244px;
+    height: 338px;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;   /*超出的部分隐藏*/
+   	background: white;
+   	position:relative;
+   	transition: all .2s linear 0s;      //属性值发生改变
+}
+.imglist:hover,.imglistone:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,.1);
+	top:-2px;
+	z-index:2;
+}
+.imglist .all,.imglistone .all{
+	height: 338px;
+	background: white;
+}
+.all img{
+	margin-top: 36px;
+}
+.info h2{
+	margin-top:36px;
+	font-size: 14px;
+    color: #555757;
+}
+.info h3{
+	font-size: 12px;
+    color: #999;
+    margin-top: 2px;
+}
+.info h4{
+	color: #e02b41;;
+	font-size: 14px;
+	margin-top:5px;
+}
+.info .hot{
+	background: #f59646;
+	border-radius: 50%;
+	height: 40px;
+	width:40px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	right: 16px;
+	top: 16px;
+	position: absolute;
+}
+.info .new{
+	background: #00c3f5;
+	border-radius: 50%;
+	height: 40px;
+	width:40px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	right: 16px;
+	top: 16px;
+	position: absolute;
+}
+.info .special{
+	background: #f0415f;
+	border-radius: 50%;
+	height: 40px;
+	width:40px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	right: 16px;
+	top: 16px;
+	position: absolute;
+}
+.mobile-phone .equip{
+	float: left;
+    font-size: 14px;
+    color: #333;
+    padding-top: 5px;
+    margin-left: 30px;
+    line-height: 24px;
+}
+.mobile-phone a:hover{
+	color: #00c3f5;
+}
+.info span{
+	font-size: 12px;
+	color:#f14361;
+}
+.info .give{
+	margin-right: 6px;
+    padding: 0 5px;
+    color: #fff;
+    background-color: #f14361;
+}
